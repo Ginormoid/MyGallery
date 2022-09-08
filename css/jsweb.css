@@ -1,0 +1,152 @@
+     /* *{
+            box-sizing: border-box;
+            margin:0;
+            padding: 0;
+        } */
+
+        #div{
+            background-image: url(/pics/bee.jpg);
+            background-repeat: no-repeat;
+
+            background-size: cover;
+            width: 100%;
+            height: 37rem;
+            margin: 0 auto;
+
+        }
+        .navbar *{
+            display: inline-flex;
+            width: 10rem;
+            height: 3rem;
+            text-decoration: none;
+            color: white;
+            }
+
+        .navbar{
+            width: 100%;
+            height: 3rem;
+        }
+
+        .navbar :nth-child(3){
+            margin-left: 35%;
+            
+        }
+
+        #me{
+            width: 90%;
+            text-align: center;
+            margin: 10rem auto;
+            line-height: 1.5rem;
+            color: white;
+            font-size: 1.2rem;
+            
+        }
+
+        #me label a img{
+            width: 2rem;
+            color: goldenrod
+
+        }
+        #me label{
+            color: rgb(153, 153, 152)
+        }
+
+        
+        #me a {
+            text-decoration: none;
+            color: goldenrod
+        }
+
+        #one{
+            background-color: rgba(15, 13, 13, 0.219);
+        }
+
+        #two button{
+            
+            background-color: #fd9460;
+            color: white;
+            margin-left: 1rem;
+            font-size: 0.8rem;
+        }
+
+        #two #search{
+            width: 50%;
+            padding: 0.9rem; 
+            /* padding-right: 19rem;  */
+            border-radius: 0.4rem; 
+            font-size: 0.8rem;
+
+        }
+
+
+        .new button{
+            color: white;
+            background-color: #9b6b6b;
+            border-radius: 2rem;
+
+        }
+
+        .new{
+            text-align:left;
+            margin-left: 20%;
+            margin-top: 3rem;
+            line-height: 2rem;
+            font-size: 1rem;
+            font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+            font-weight: lighter;
+
+        }
+
+        .new a:hover{
+            cursor: pointer;
+            color: tomato;
+        }
+
+        .new a{
+            text-decoration: none;
+            color: #3b86c4;
+            font-family:  BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+            font-size: 1rem;
+            font-weight: lighter;
+        }
+
+        #foot, #foot p a{
+            text-align: center;
+            text-decoration: none;
+            color: #3b86c4;
+            font-family:  BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+            border-left: rgb(201, 201, 201) solid 0.2rem;
+            margin-left: 0.6rem;
+            padding-left: 0.6rem;
+
+        }
+
+        #fot, #foot{
+            display: flex;
+        }
+
+
+        #fot small{
+            margin-top: 1.3rem;
+            margin-left: 5rem;
+        }
+
+        .new a h5{
+            color: black;
+        }
+
+        .new a h5:hover{
+            color: tomato;
+        }
+
+        #bot a img{
+            width: 2rem;
+        }
+
+        #bot{
+            width: 100%;
+        }
+
+
+
+
