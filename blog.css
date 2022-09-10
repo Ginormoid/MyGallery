@@ -1,0 +1,36 @@
+body {
+    border: 20px solid #bdc3c7;
+    width: 50%;
+    text-align: left;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.date {
+    text-transform: uppercase;
+    color: #3498db;
+    letter-spacing: 2px;
+}
+    
+.head {
+    color: #2c3e50;
+}
+
+.one {
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+}
+
+p {
+    font-family: source sans pro;
+}
+
+hr {
+    text-decoration: wavy;
+}
+
+video {
+    height: 20em;
+    width: 50%
+    margin-left: 15em;
+}

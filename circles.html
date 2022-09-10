@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long-Time</title>
+    <style>
+    .col1{
+        background: rgb(147, 196, 212);
+        margin: 5rem;
+    }
+    .col2{
+        padding: 1rem;
+        background: gainsboro;
+        border: thin solid gainsboro;
+    }
+    button{
+        background-color: rgb(84, 166, 194);
+        color: white;
+        border: none;
+        margin-left: 3rem;
+    }
+    button:hover{
+        background-color: white;
+        color: rgb(84, 166, 194);
+    }
+    </style>
+<form action="bog.html" method="get">
+</head>
+<body class="col1">
+    <div >
+        <h1>Good Vibes Form</h1>
+    </div>
+    <div class="col2">
+        <p>
+            Tell us something positive that happened to you today
+        </p>
+        <p>
+            <label for="name">Name
+            <p><input type="text" name="name" id="name" placeholder="Enter your name"></p>
+            </label>
+        </p>
+        <p>
+            <label for="email">Email
+            <p><input type="text" name="email" id="email" placeholder="Enter your email address"></p>
+            </label>
+        </p>
+        <p>
+            <label for="rate">On a scale of 1-10, how good was it?
+            <p><input type="text" name="rate" id="rate" placeholder="Enter a number between 1 and 10"></p>
+            </label>
+        </p>
+        <p>
+            <p><label for="place">Where did it happen?
+                <p><select name="place" id="place" >
+                    <div><option value="place">At home</option></div>
+                    <div><option value="place">commute</option></div>
+                    <div><option value="place">School</option></div>
+                    <div><option value="place">Other</option></div>
+                    </select>
+            </label></p></p>
+            
+        </p>
+        <p>
+            <label for="time">At what time of the day did it happen?
+            <div><input type="radio" name="time" id="time">Morning</div>
+            <div><input type="radio" name="time" id="time">Afternoon</div>
+            <div><input type="radio" name="time" id="time">Evening</div>
+            </label>
+        </p>
+        <p>
+            <label for="emo">What emotions did you experience?(select all that apply)
+            <div><input type="checkbox" name="emo" id="emo">Exited</div>
+            <div><input type="checkbox" name="emo" id="emo">Humbled</div>
+            <div><input type="checkbox" name="emo" id="emo">Elated</div>
+            <div><input type="checkbox" name="emo" id="emo">Loved</div>
+            <div><input type="checkbox" name="emo" id="emo">Enthusiastic</div>
+            </label>
+        </p>
+
+        <p>
+            <label for="text">Please describe your positive experience.
+            <p><input type="text" name="text" id="text" width="15em" height="30em" placeholder="Enter you experience here"></p>
+        </label>
+        </p>
+        <p>
+            <button>Submit</button>
+        </p>
+    </div>
+</form>
+</body>
+</html>
